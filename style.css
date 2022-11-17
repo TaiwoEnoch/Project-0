@@ -1,0 +1,214 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px 10%;
+  background-color: darkorange;
+  padding: 60px;
+}
+
+.nav-list {
+  display: flex;
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list:hover {
+  color: #000;
+}
+
+span1 {
+  color: #000;
+}
+
+ span {
+  color:rgb(247, 3, 3);
+ }
+
+.nav-list,
+.logo {
+  color: #fff;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.first-h1 {
+  color: #000;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.main-image {
+  width: 100%;
+  height: 650px;
+  margin: 0px;
+}
+
+.first-p {
+  color:#fff;
+  background-color: darkorange;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.pizza-1 {
+  width: 100%;
+  height: 600px;
+}
+
+.ingredients {
+  background-color: #000;
+  color:darkorange;
+}
+
+.Pizza-dough {
+  margin-left: 400px;
+  font-size: 50px;
+}
+
+.pizza-p {
+  margin-left: 260px;
+  font-size: 35px;
+}
+
+.list-ingredient {
+  margin-left: 450px;
+  font-size: 30px;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.procedures {
+  background-color: #ff8c00;
+}
+
+.dough {
+  text-align: center;
+  font-size: 50px;
+  background-color: lightgray;
+  color: #000;
+  padding: 10px;
+}
+
+.insight-words {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #000;
+  padding: 20px;
+}
+
+
+
+.bugger-image {
+  width: 100%;
+  height: 600px;
+}
+
+.classic-burger {
+  text-align: center;
+  font-size: 50px;
+  background-color:orange;
+  color: #fff;
+  padding: 15px;
+}
+
+.burger-ingredient-list {
+  width: 100%;
+  margin-left: 500px;
+  font-size: 25px;
+  color: #fff;
+  padding: 20px;
+}
+
+.list-all-ingredients {
+  background-color: #000;
+}
+
+.burger {
+  text-align: center;
+  font-size: 60px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.process-words {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #000;
+  padding: 18px;
+}
+
+.burger-procedures {
+  background-color:orange;
+}
+
+
+
+
+.salad-image {
+  width: 100%;
+  height: 600px;
+}
+
+.list-salad {
+  background-color: #000;
+}
+.salads {
+  text-align: center;
+  font-size: 70px;
+  background-color:orange;
+  color: #fff;
+  padding: 20px;
+}
+
+.list-of-salad {
+  width: 100%;
+  margin-left: 500px;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.all-ingredients-list {
+  color: #fff;
+}
+
+.salad-pro {
+  text-align: center;
+  font-size: 60px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.how-to-do-it {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #000;
+  padding: 18px;
+}
+
+.salad-procedures {
+  background-color: #ff8c00;
+}
