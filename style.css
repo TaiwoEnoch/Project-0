@@ -77,23 +77,24 @@ span1 {
 .ingredients {
   background-color: #000;
   color:darkorange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Pizza-dough {
-  margin-left: 400px;
+  text-align: center;
   font-size: 50px;
 }
 
 .pizza-p {
-  margin-left: 260px;
+  text-align: center;
   font-size: 35px;
 }
 
 .list-ingredient {
-  margin-left: 450px;
   font-size: 30px;
-  margin-top: 15px;
-  padding: 20px;
 }
 
 .procedures {
@@ -116,8 +117,6 @@ span1 {
   padding: 20px;
 }
 
-
-
 .bugger-image {
   width: 100%;
   height: 600px;
@@ -132,8 +131,6 @@ span1 {
 }
 
 .burger-ingredient-list {
-  width: 100%;
-  margin-left: 500px;
   font-size: 25px;
   color: #fff;
   padding: 20px;
@@ -141,6 +138,10 @@ span1 {
 
 .list-all-ingredients {
   background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .burger {
@@ -179,14 +180,13 @@ span1 {
 }
 
 .list-of-salad {
-  width: 100%;
-  margin-left: 500px;
-  font-size: 25px;
-  padding: 20px;
-}
-
-.all-ingredients-list {
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding: 30px;
 }
 
 .salad-pro {
