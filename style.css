@@ -9,30 +9,28 @@ body {
 }
 
 header {
+  padding: 60px;
+  background-color: darkorange;
+}
+
+.prosper {
   display: flex;
   justify-content: space-between;
-  text-align: center;
-  padding: 30px 10%;
-  background-color: darkorange;
-  padding: 60px;
+}
+
+.logo {
+  display: block;
 }
 
 .nav-list {
   display: flex;
-  display: inline-block;
-  padding: 0px 20px;
-  text-decoration: none;
-  color: #000;
-}
-
-.navbar {
   list-style: none;
-  display: flex;
+  gap: 16px;
 }
 
 .nav-list:hover {
   color: #000;
-}
+} 
 
 span1 {
   color: #000;
@@ -42,8 +40,8 @@ span1 {
   color:rgb(247, 3, 3);
  }
 
-.nav-list,
-.logo {
+.logo,
+.list {
   color: #fff;
   font-size: 35px;
   text-decoration: none;
@@ -163,9 +161,6 @@ span1 {
 .burger-procedures {
   background-color:orange;
 }
-
-
-
 
 .salad-image {
   width: 100%;
